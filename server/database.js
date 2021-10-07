@@ -1,4 +1,5 @@
 const mysql = require('mysql'); // mysql사용
+require("dotenv").config();
 //db정보
 const dbConnection = mysql.createPool(
     {
